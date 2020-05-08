@@ -129,7 +129,7 @@ nav li {
 @media screen and (max-width: 600px){
   #obsah{
     background-color: brown;
-    width: 100%;
+    width: 100%;    
     margin: 0 ;
   }  
 
@@ -169,4 +169,24 @@ nav li {
  
 
 
+  }
+
+  h1{
+    text-align: left;
+	  color: black;
+	  font-size: 50px;
+    font-family: 'Prompt', sans-serif;
+    padding: 15px 0px 15px 30px;
+    margin: 0px;
+  }
+
+  #uvodnytext{
+    min-height: 600px;
+    background-color: whitesmoke;
+    padding: 30px 50px 30px 50px;
+  }
+
+  #fotoobchod{
+    margin: auto;
+    display: block;
   }
