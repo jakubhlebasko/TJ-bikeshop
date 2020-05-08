@@ -144,6 +144,7 @@ nav li {
   #obsah{
     background-color: brown;
     margin: 0 auto;
+    
   }
   
   .tovar{
@@ -209,4 +210,15 @@ nav li {
   .profilovka{
     float: left;
     margin: 0 20px 0 0;
+  }
+
+  .texttovar{
+    min-height: 600px;
+    background-color: whitesmoke;
+    padding: 30px 50px 30px 50px;
+  }
+
+  .tovarfoto{
+    float: left;
+    padding: 20px 30px 10px 50px;
   }
