@@ -180,8 +180,17 @@ nav li {
     margin: 0px;
   }
 
+  h2{
+    text-align: left;
+	  color: black;
+	  font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    padding: 15px 0px 15px 30px;
+    margin: 0px;
+  }
+
   #uvodnytext{
-    min-height: 800px;
+    min-height: 600px;
     background-color: whitesmoke;
     padding: 30px 50px 30px 50px;
   }
@@ -189,4 +198,15 @@ nav li {
   #fotoobchod{
     margin: auto;
     display: block;
+  }
+
+  #kontakttext{
+    min-height: 600px;
+    background-color: whitesmoke;
+    padding: 30px 50px 30px 50px;
+  }
+
+  .profilovka{
+    float: left;
+    margin: 0 20px 0 0;
   }
