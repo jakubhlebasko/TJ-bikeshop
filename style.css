@@ -180,7 +180,7 @@ nav li {
     margin: 0px;
   }
 
-  .uvodnytext{
+  #uvodnytext{
     min-height: 800px;
     background-color: whitesmoke;
     padding: 30px 50px 30px 50px;
