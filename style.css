@@ -17,8 +17,9 @@ body{
   margin: 0 auto;
 }
 
-#kosicek{
+.kosicek{
   color: white ;
+  text-decoration: none;
 }
 
 .tovar{
@@ -189,6 +190,8 @@ nav li {
     padding: 15px 0px 15px 30px;
     margin: 0px;
   }
+ 
+  
 
   #uvodnytext{
     min-height: 600px;
@@ -221,4 +224,20 @@ nav li {
   .tovarfoto{
     float: left;
     padding: 20px 30px 10px 50px;
+  }
+
+  #kosik{
+    min-height: 600px;
+    background-color: whitesmoke;
+    padding: 30px 50px 30px 50px;
+  }
+
+  .kosik-tovar{
+    padding: 20px 30px 10px 50px;
+    
+  }
+  
+  .kosik-tovar a{
+    float: left;
+    padding-right: 10px;
   }
