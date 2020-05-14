@@ -1,6 +1,8 @@
 body{
   margin: 0;
   scroll-behavior: smooth;
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 20px;
 }
 
 #hlavicka{
@@ -12,7 +14,7 @@ body{
 }
 
 #obsah{
-  background-color: brown;
+  background-color: #C1C1C1;
   width: 80%;
   margin: 0 auto;
 }
@@ -33,9 +35,15 @@ body{
 
 .produkt{
   width: 250px;
-  height: 400px;
-  background-color: cornflowerblue;
+  height: 300px;
+  background-color:white;
   margin: 5px ;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
 }
 
 header nav{
@@ -148,21 +156,9 @@ nav li {
     
   }
   
-  .tovar{
-    /*display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    justify-items: center;
-    grid-gap: 5px;
-    grid-row-gap: 0px;
-    padding: 5px;*/
-  }
   
-  .produkt{
-    width: 100%;
-    height: 400px;
-    background-color: cornflowerblue;
-    margin: 5px ;
-  }
+  
+  
   
  
 }
@@ -175,28 +171,46 @@ nav li {
 
   h1{
     text-align: left;
-	  color: black;
-	  font-size: 50px;
-    font-family: 'Prompt', sans-serif;
-    padding: 15px 0px 15px 30px;
+	  color: #2C4251;
+	  font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 0px 15px 50px;
     margin: 0px;
+    background-color: #B6C649;
   }
 
   h2{
     text-align: left;
-	  color: black;
-	  font-size: 25px;
-    font-family: 'Prompt', sans-serif;
+	  color: #2C4251;
+	  font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
     padding: 15px 0px 15px 30px;
     margin: 0px;
+    background-color: #B6C649;
   }
+
+  h3{}
  
   
 
   #uvodnytext{
     min-height: 600px;
-    background-color: whitesmoke;
     padding: 30px 50px 30px 50px;
+    margin: auto;
+  }
+
+  #bikeshopfoto{
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+    padding-top: 30px;
+  }
+
+  .produkt-mini{
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding: 30px 10px 20px 1px;
   }
 
   #fotoobchod{
@@ -206,29 +220,28 @@ nav li {
 
   #kontakttext{
     min-height: 600px;
-    background-color: whitesmoke;
     padding: 30px 50px 30px 50px;
   }
 
   .profilovka{
+    width: 150px;
     float: left;
     margin: 0 20px 0 0;
   }
 
   .texttovar{
     min-height: 600px;
-    background-color: whitesmoke;
     padding: 30px 50px 30px 50px;
   }
 
   .tovarfoto{
+    width: 200px;
     float: left;
-    padding: 20px 30px 10px 50px;
+    padding: 0 30px 10px 0px;
   }
 
   #kosik{
     min-height: 600px;
-    background-color: whitesmoke;
     padding: 30px 50px 30px 50px;
   }
 
@@ -241,3 +254,7 @@ nav li {
     float: left;
     padding-right: 10px;
   }
+
+  
+
+  
