@@ -6,7 +6,7 @@ body{
 }
 
 #hlavicka{
-  background-color: blue;
+  background-color: black;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -122,13 +122,28 @@ nav li {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: aquamarine;
+  background-color: black;
+  color:white;
+  vertical-align: middle;
+  font-size: 20px;
+  padding: 20px;
 }
+
+#footer-nadpis{
+  color: white;
+  margin: 0; 
+}
+
+#sitemapa-odkaz{
+  color: white;
+  padding-left: 15px;
+}
+
 /**** pata *****/
 
 @media screen and (max-width: 1200px){
   #obsah{
-    background-color: brown;
+    background-color: #C1C1C1;
     width: 90%;
     margin: 0 auto;
   }  
@@ -137,13 +152,13 @@ nav li {
 
 @media screen and (max-width: 600px){
   #obsah{
-    background-color: brown;
+    background-color: #C1C1C1;
     width: 100%;    
     margin: 0 ;
   }  
 
   #hlavicka{
-    background-color: blue;
+    background-color: black;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -151,15 +166,10 @@ nav li {
   }
   
   #obsah{
-    background-color: brown;
+    background-color: #C1C1C1;
     margin: 0 auto;
     
   }
-  
-  
-  
-  
-  
  
 }
 
@@ -189,12 +199,11 @@ nav li {
     background-color: #B6C649;
   }
 
-  h3{}
  
   
 
   #uvodnytext{
-    min-height: 600px;
+    height: 120px;
     padding: 30px 50px 30px 50px;
     margin: auto;
   }
@@ -213,9 +222,11 @@ nav li {
     padding: 30px 10px 20px 1px;
   }
 
-  #fotoobchod{
+  .fotokosik{
     margin: auto;
     display: block;
+    margin: 0;
+    width: 70px;
   }
 
   #kontakttext{
@@ -253,6 +264,13 @@ nav li {
   .kosik-tovar a{
     float: left;
     padding-right: 10px;
+  }
+
+  .akcia{
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding-bottom: 100px;
   }
 
   
